@@ -1,0 +1,29 @@
+[
+  {
+    "name": "apple",
+    "calories": 52,
+    "protein": 0.26,
+    "carbs": 13.8,
+    "fats": 0.17,
+    "image": "https://spoonacular.com/cdn/ingredients_100x100/apple.jpg",
+    "_id": "67fbac46e1ce6ad6a13704bc"
+  },
+  {
+    "name": "banana",
+    "calories": 89,
+    "protein": 1.09,
+    "carbs": 22.8,
+    "fats": 0.33,
+    "image": "https://spoonacular.com/cdn/ingredients_100x100/bananas.jpg",
+    "_id": "67fbae96e1ce6ad6a1370506"
+  },
+  {
+    "name": "egg",
+    "calories": 143,
+    "protein": 12.6,
+    "carbs": 0.72,
+    "fats": 9.51,
+    "image": "https://spoonacular.com/cdn/ingredients_100x100/egg.png",
+    "_id": "67fbaea1e1ce6ad6a1370508"
+  }
+]

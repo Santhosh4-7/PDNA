@@ -1,0 +1,85 @@
+/* Signup CSS with Animations */
+
+/* Container */
+.signup-container {
+  width: 350px;
+  margin: auto;
+  padding: 20px;
+  text-align: center;
+  border: 1px solid #f3f4f6; /* Light grey border for consistency */
+  border-radius: 10px;
+  background-color: #fff; /* White background */
+  animation: slideInFromTop 0.8s ease-in-out;
+}
+
+/* Form Inputs */
+.signup-form input, .signup-form select {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border: 1px solid #f3f4f6; /* Light grey border for inputs */
+  border-radius: 5px;
+  background-color: #f9f9f9; /* Light pink background for inputs */
+  animation: fadeIn 0.8s ease-in-out;
+}
+
+.signup-form button {
+  width: 100%;
+  padding: 10px;
+  background-color: #ed556c; /* Light pink button */
+  color: white;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  animation: fadeIn 0.8s ease-in-out;
+}
+
+.signup-form button:hover {
+  background-color: #FF89A0; /* Slightly darker pink on hover */
+}
+
+/* Messages */
+.error-message {
+  color: red;
+  margin-bottom: 10px;
+}
+
+.success-message {
+  color: green;
+  margin-bottom: 10px;
+}
+
+/* Login link */
+.login-link {
+  display: block;
+  margin-top: 10px;
+  text-decoration: none;
+  color: #FF69B4; /* Pink color for login link */
+  animation: fadeIn 0.8s ease-in-out;
+}
+
+.login-link:hover {
+  color: #FF4C8B; /* Darker pink on hover */
+}
+
+/* Animations */
+@keyframes slideInFromTop {
+  from {
+    opacity: 0;
+    transform: translateY(-30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

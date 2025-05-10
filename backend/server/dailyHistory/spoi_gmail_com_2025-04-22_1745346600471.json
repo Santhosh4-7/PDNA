@@ -1,0 +1,51 @@
+{
+  "date": "2025-04-22",
+  "calories": 351,
+  "foodItems": [
+    {
+      "name": "egg",
+      "calories": 143,
+      "protein": 12.6,
+      "carbs": 0.72,
+      "fats": 9.51,
+      "image": "https://spoonacular.com/cdn/ingredients_100x100/egg.png",
+      "_id": "67fe1127974dd53bffc825b8"
+    },
+    {
+      "name": "apple",
+      "calories": 52,
+      "protein": 0.26,
+      "carbs": 13.8,
+      "fats": 0.17,
+      "image": "https://spoonacular.com/cdn/ingredients_100x100/apple.jpg",
+      "_id": "67fe1139974dd53bffc825c6"
+    },
+    {
+      "name": "apple",
+      "calories": 52,
+      "protein": 0.26,
+      "carbs": 13.8,
+      "fats": 0.17,
+      "image": "https://spoonacular.com/cdn/ingredients_100x100/apple.jpg",
+      "_id": "68077c140ffc3fec03454d79"
+    },
+    {
+      "name": "apple",
+      "calories": 52,
+      "protein": 0.26,
+      "carbs": 13.8,
+      "fats": 0.17,
+      "image": "https://spoonacular.com/cdn/ingredients_100x100/apple.jpg",
+      "_id": "680784450ffc3fec03454fa9"
+    },
+    {
+      "name": "apple",
+      "calories": 52,
+      "protein": 0.26,
+      "carbs": 13.8,
+      "fats": 0.17,
+      "image": "https://spoonacular.com/cdn/ingredients_100x100/apple.jpg",
+      "_id": "680785d20ffc3fec034550af"
+    }
+  ]
+}

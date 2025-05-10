@@ -1,0 +1,90 @@
+/* Meals.css */
+
+.meals-container {
+    padding: 20px;
+    background-color: #f0f8ff; /* AliceBlue background */
+    min-height: 100vh;
+    color: #333;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .meals-header {
+    text-align: center;
+    color: #1e90ff;  /* DodgerBlue */
+    margin-bottom: 20px;
+    animation: fadeIn 1s ease-in-out;
+  }
+  
+  .meals-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #ffffff;  /* White table background */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    animation: fadeIn 1s ease-in-out;
+  }
+  
+  .meals-table thead {
+    background-color: #1e90ff; /* DodgerBlue */
+    color: #fff;
+    text-align: left;
+  }
+  
+  .meals-table th,
+  .meals-table td {
+    padding: 12px 15px;
+    border-bottom: 1px solid #f0f0f0;
+  }
+  
+  .meals-table tbody tr {
+    transition: background-color 0.3s ease;
+  }
+  
+  .meals-table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .meals-table tbody tr:hover {
+    background-color: #e6f7ff; /* Light blue on hover */
+  }
+  
+  .no-foods-message {
+    text-align: center;
+    font-size: 18px;
+    margin-top: 40px;
+    color: #555;
+  }
+  
+  /* Simple keyframe animations */
+  @keyframes fadeIn {
+    0% { opacity: 0; transform: translateY(10px); }
+    100% { opacity: 1; transform: translateY(0); }
+  }
+  
+  /* Optional: classes for more animation triggers; you can attach these classes in your component if you want */
+  .animated {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+  }
+  
+  .fadeIn {
+    animation-name: fadeIn;
+  }
+  
+  .slideInUp {
+    animation-name: slideInUp;
+  }
+  
+  @keyframes slideInUp {
+    from {
+      opacity: 0;
+      transform: translate3d(0, 20%, 0);
+    }
+    to {
+      opacity: 1;
+      transform: translate3d(0, 0, 0);
+    }
+  }
+  

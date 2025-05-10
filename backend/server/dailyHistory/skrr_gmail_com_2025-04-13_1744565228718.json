@@ -1,0 +1,101 @@
+[
+  {
+    "name": "apple",
+    "calories": 52,
+    "protein": 0.26,
+    "carbs": 13.8,
+    "fats": 0.17,
+    "image": "https://spoonacular.com/cdn/ingredients_100x100/apple.jpg",
+    "_id": "67f4bcccf1c4616096f91074"
+  },
+  {
+    "name": "banana",
+    "calories": 89,
+    "protein": 1.09,
+    "carbs": 22.8,
+    "fats": 0.33,
+    "image": "https://spoonacular.com/cdn/ingredients_100x100/bananas.jpg",
+    "_id": "67f4be49f1c4616096f91078"
+  },
+  {
+    "name": "banana",
+    "calories": 89,
+    "protein": 1.09,
+    "carbs": 22.8,
+    "fats": 0.33,
+    "image": "https://spoonacular.com/cdn/ingredients_100x100/bananas.jpg",
+    "_id": "67f4be63f1c4616096f9107a"
+  },
+  {
+    "name": "banana",
+    "calories": 89,
+    "protein": 1.09,
+    "carbs": 22.8,
+    "fats": 0.33,
+    "image": "https://spoonacular.com/cdn/ingredients_100x100/bananas.jpg",
+    "_id": "67f4c0223cb610f1652b3b44"
+  },
+  {
+    "name": "banana",
+    "calories": 89,
+    "protein": 1.09,
+    "carbs": 22.8,
+    "fats": 0.33,
+    "image": "https://spoonacular.com/cdn/ingredients_100x100/bananas.jpg",
+    "_id": "67f4c11af71860c33d4357ab"
+  },
+  {
+    "name": "banana",
+    "calories": 89,
+    "protein": 1.09,
+    "carbs": 22.8,
+    "fats": 0.33,
+    "image": "https://spoonacular.com/cdn/ingredients_100x100/bananas.jpg",
+    "_id": "67f4c153399e5689f5fe7bc9"
+  },
+  {
+    "name": "apple",
+    "calories": 52,
+    "protein": 0.26,
+    "carbs": 13.8,
+    "fats": 0.17,
+    "image": "https://spoonacular.com/cdn/ingredients_100x100/apple.jpg",
+    "_id": "67f4c206fff2e96f8aeaab90"
+  },
+  {
+    "name": "apple",
+    "calories": 52,
+    "protein": 0.26,
+    "carbs": 13.8,
+    "fats": 0.17,
+    "image": "https://spoonacular.com/cdn/ingredients_100x100/apple.jpg",
+    "_id": "67f4c487d04b291342b188ac"
+  },
+  {
+    "name": "apple",
+    "calories": 52,
+    "protein": 0.26,
+    "carbs": 13.8,
+    "fats": 0.17,
+    "image": "https://spoonacular.com/cdn/ingredients_100x100/apple.jpg",
+    "_id": "67f4c496d04b291342b188ae"
+  },
+  {
+    "name": "apple",
+    "calories": 52,
+    "protein": 0.26,
+    "carbs": 13.8,
+    "fats": 0.17,
+    "image": "https://spoonacular.com/cdn/ingredients_100x100/apple.jpg",
+    "_id": "67f4d3b37c47af6b00b833af"
+  },
+  {
+    "name": "apple",
+    "calories": 52,
+    "protein": 0.26,
+    "carbs": 13.8,
+    "fats": 0.17,
+    "image": "https://spoonacular.com/cdn/ingredients_100x100/apple.jpg",
+    "_id": "67f4d445be9210253eb10cd8"
+  }
+]

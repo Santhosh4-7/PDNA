@@ -1,0 +1,15 @@
+{
+  "date": "2025-04-22",
+  "calories": 52,
+  "foodItems": [
+    {
+      "name": "apple",
+      "calories": 52,
+      "protein": 0.26,
+      "carbs": 13.8,
+      "fats": 0.17,
+      "image": "https://spoonacular.com/cdn/ingredients_100x100/apple.jpg",
+      "_id": "67fcea4a40a441f34a667acd"
+    }
+  ]
+}

@@ -1,0 +1,185 @@
+/* Heartbeat Display and Alert Styles */
+
+/* Enhanced Heartbeat Container */
+.heartbeat-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 2rem;
+    padding: 1rem 1.5rem;
+    background: linear-gradient(135deg, var(--primary-light), var(--primary));
+    border-radius: 12px;
+    color: var(--text-light);
+    box-shadow: var(--shadow-sm);
+    animation: pulseBackground 3s infinite alternate, fadeIn 1s ease-out;
+    position: relative;
+    transition: all 0.3s ease;
+  }
+  
+  .heartbeat-container.high-bpm {
+    background: linear-gradient(135deg, #ff9966, #ff5e62);
+    animation: flashBg 1.5s infinite alternate;
+    box-shadow: 0 5px 15px rgba(255, 94, 98, 0.4);
+  }
+  
+  .heartbeat-text {
+    font-size: 1.1rem;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+  }
+  
+  .heartbeat {
+    margin: 0 10px;
+    display: inline-block;
+    animation: heartbeat 1s infinite;
+    font-size: 1.4rem;
+  }
+  
+  /* High BPM text styling */
+  .high-bpm-text {
+    color: #ffff00;
+    font-weight: 700;
+    animation: pulse 1s infinite;
+  }
+  
+  .warning-icon {
+    margin-left: 8px;
+    animation: shake 0.5s infinite;
+  }
+  
+  /* High BPM Alert Modal */
+  .high-bpm-alert {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999;
+    animation: fadeIn 0.3s ease-out;
+  }
+  
+  .alert-content {
+    background-color: white;
+    border-radius: 16px;
+    width: 90%;
+    max-width: 500px;
+    max-height: 90vh;
+    overflow-y: auto;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    animation: scaleIn 0.3s ease-out;
+  }
+  
+  .alert-header {
+    background: linear-gradient(90deg, #ff5e62, #ff9966);
+    padding: 1.25rem;
+    color: white;
+    border-radius: 16px 16px 0 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .alert-header h3 {
+    margin: 0;
+    font-size: 1.25rem;
+  }
+  
+  .close-alert {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 1.5rem;
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    transition: all 0.2s ease;
+  }
+  
+  .close-alert:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+  }
+  
+  .alert-body {
+    padding: 1.5rem;
+  }
+  
+  .alert-body p {
+    margin-bottom: 1rem;
+    line-height: 1.5;
+  }
+  
+  .alert-body ul {
+    margin: 0;
+    padding: 0 0 0 1.25rem;
+  }
+  
+  .alert-body li {
+    margin-bottom: 0.5rem;
+  }
+  
+  /* Animations */
+  @keyframes flashBg {
+    0%, 100% {
+      background: linear-gradient(135deg, #ff9966, #ff5e62);
+    }
+    50% {
+      background: linear-gradient(135deg, #ff5e62, #ff9966);
+    }
+  }
+  
+  @keyframes pulse {
+    0%, 100% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0.7;
+    }
+  }
+  
+  @keyframes shake {
+    0%, 100% {
+      transform: translateX(0);
+    }
+    25% {
+      transform: translateX(-3px);
+    }
+    75% {
+      transform: translateX(3px);
+    }
+  }
+  
+  @keyframes scaleIn {
+    from {
+      transform: scale(0.9);
+      opacity: 0;
+    }
+    to {
+      transform: scale(1);
+      opacity: 1;
+    }
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .alert-content {
+      width: 95%;
+      max-height: 80vh;
+    }
+    
+    .alert-header {
+      padding: 1rem;
+    }
+    
+    .alert-body {
+      padding: 1.25rem;
+    }
+  }

@@ -1,0 +1,46 @@
+.suggestionWrapper {
+  padding: 2rem;
+  max-width: 800px;
+  margin: 0 auto;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.suggestionTitle {
+  font-size: 2rem;
+  color: #4a148c;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.loadingText {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #777;
+}
+
+.suggestionContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.suggestionCard {
+  background-color: #fce4ec;
+  border-left: 5px solid #ec407a;
+  padding: 1rem;
+  border-radius: 8px;
+  width: 100%;
+  max-width: 350px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  animation: fadeInUp 0.3s ease forwards;
+  opacity: 0;
+  transform: translateY(20px);
+}
+
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

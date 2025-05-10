@@ -1,0 +1,159 @@
+{
+  "date": "2025-04-22",
+  "calories": 2120.19,
+  "foodItems": [
+    {
+      "name": "apple",
+      "calories": 52,
+      "protein": 0.26,
+      "carbs": 13.8,
+      "fats": 0.17,
+      "image": "https://spoonacular.com/cdn/ingredients_100x100/apple.jpg",
+      "_id": "67fcea7240a441f34a667ae8"
+    },
+    {
+      "name": "egg",
+      "calories": 143,
+      "protein": 12.6,
+      "carbs": 0.72,
+      "fats": 9.51,
+      "image": "https://spoonacular.com/cdn/ingredients_100x100/egg.png",
+      "_id": "67fd1e526ce0f245dd7f1d45"
+    },
+    {
+      "name": "egg",
+      "calories": 143,
+      "protein": 12.6,
+      "carbs": 0.72,
+      "fats": 9.51,
+      "image": "https://spoonacular.com/cdn/ingredients_100x100/egg.png",
+      "_id": "67fd1e596ce0f245dd7f1d47"
+    },
+    {
+      "name": "egg",
+      "calories": 143,
+      "protein": 12.6,
+      "carbs": 0.72,
+      "fats": 9.51,
+      "image": "https://spoonacular.com/cdn/ingredients_100x100/egg.png",
+      "_id": "67fd1e606ce0f245dd7f1d49"
+    },
+    {
+      "name": "apple",
+      "calories": 52,
+      "protein": 0.26,
+      "carbs": 13.8,
+      "fats": 0.17,
+      "image": "https://spoonacular.com/cdn/ingredients_100x100/apple.jpg",
+      "_id": "67fd1e716ce0f245dd7f1d69"
+    },
+    {
+      "name": "egg",
+      "calories": 143,
+      "protein": 12.6,
+      "carbs": 0.72,
+      "fats": 9.51,
+      "image": "https://spoonacular.com/cdn/ingredients_100x100/egg.png",
+      "_id": "67fd1e796ce0f245dd7f1d6b"
+    },
+    {
+      "name": "apple",
+      "calories": 52,
+      "protein": 0.26,
+      "carbs": 13.8,
+      "fats": 0.17,
+      "image": "https://spoonacular.com/cdn/ingredients_100x100/apple.jpg",
+      "_id": "67fd1e916ce0f245dd7f1da5"
+    },
+    {
+      "name": "apple",
+      "calories": 52,
+      "protein": 0.26,
+      "carbs": 13.8,
+      "fats": 0.17,
+      "image": "https://spoonacular.com/cdn/ingredients_100x100/apple.jpg",
+      "_id": "67fd1e976ce0f245dd7f1da7"
+    },
+    {
+      "name": "turkey drumsticks",
+      "calories": 119.52,
+      "protein": 16.22,
+      "carbs": 0,
+      "fats": 5.58,
+      "image": "https://spoonacular.com/cdn/ingredients_100x100/turkey-drumstick.jpg",
+      "_id": "67fd1e9e6ce0f245dd7f1da9"
+    },
+    {
+      "name": "apple",
+      "calories": 52,
+      "protein": 0.26,
+      "carbs": 13.8,
+      "fats": 0.17,
+      "image": "https://spoonacular.com/cdn/ingredients_100x100/apple.jpg",
+      "_id": "67fe1af5724f3232df3fa09b"
+    },
+    {
+      "name": "apple",
+      "calories": 52,
+      "protein": 0.26,
+      "carbs": 13.8,
+      "fats": 0.17,
+      "image": "https://spoonacular.com/cdn/ingredients_100x100/apple.jpg",
+      "_id": "67fe1f56724f3232df3fa1dc"
+    },
+    {
+      "name": "banana",
+      "calories": 89,
+      "protein": 1.09,
+      "carbs": 22.8,
+      "fats": 0.33,
+      "image": "https://spoonacular.com/cdn/ingredients_100x100/bananas.jpg",
+      "_id": "67fe1f60724f3232df3fa1de"
+    },
+    {
+      "name": "puffed rice cereal",
+      "calories": 383,
+      "protein": 7.01,
+      "carbs": 87.8,
+      "fats": 0.9,
+      "image": "https://spoonacular.com/cdn/ingredients_100x100/rice-crispy-cereal.png",
+      "_id": "67fe1f6f724f3232df3fa1e0"
+    },
+    {
+      "name": "ready to serve asian fried rice",
+      "calories": 176,
+      "protein": 4,
+      "carbs": 36,
+      "fats": 1.6,
+      "image": "https://spoonacular.com/cdn/ingredients_100x100/fried-rice.png",
+      "_id": "68008fd1f54b9c70986089f0"
+    },
+    {
+      "name": "cauliflower",
+      "calories": 25,
+      "protein": 1.92,
+      "carbs": 4.97,
+      "fats": 0.28,
+      "image": "https://spoonacular.com/cdn/ingredients_100x100/cauliflower.jpg",
+      "_id": "68008ff3f54b9c70986089f2"
+    },
+    {
+      "name": "potato",
+      "calories": 77,
+      "protein": 2.02,
+      "carbs": 17.47,
+      "fats": 0.09,
+      "image": "https://spoonacular.com/cdn/ingredients_100x100/potatoes-yukon-gold.png",
+      "_id": "680094eff54b9c7098608cc9"
+    },
+    {
+      "name": "tempura batter mix",
+      "calories": 366.67,
+      "protein": 3.33,
+      "carbs": 83.33,
+      "fats": 0,
+      "image": "https://spoonacular.com/cdn/ingredients_100x100/no.jpg",
+      "_id": "6800966bf54b9c7098608d31"
+    }
+  ]
+}
